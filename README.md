@@ -1,4 +1,43 @@
-## 221 Group Project Shared Repo
+## Updated Project Proposal 
+
+### Week 04
+### Mini Group Assignment
+### 1. Project title 
+* Group Name: Code & Cry
+* Group Members: Dayoung Lee, Quinn Haaga, Tommy Chandler, Rachel Kovinsky 
+* Title: A Legacy of Racism, Redlining & Health Inequities in San Francisco  
+* (See Original Project Proposal below)
+
+
+### 2. Roles: Give each team member a title, and define what role each team member will play, and how each person plans to contribute to the project. While this may be subject to change, it is a good idea to define this early in the project to clarify "who is doing what."
+
+Each member of our group will be responsible for analyzing a specific topic related to health equity or environmental justice in San Francisco. Each topic will then become a layer or area of focus within our final maps and visualizations, analyzed in relation to the lingering effects of redlining. A more detailed list of  assigned topics and tasks, by group member, is included below. 
+
+After we each research and analyze our respective focus area, we will then merge our data to overlay and visualize the different components on one map. In doing so, we will be able to better understand the overlapping and compounding effects of health disparities and their relation to the historic redlining map, our base layer. 
+
+* Dayoung –  finding and analyzing data on asthma rates and hospitalizations, by census tract 
+* Quinn – taking deep dive into COVID-19 data to determine what metrics and sources are the best indicator of larger health inequities
+* Rachel - finding and analyzing data on poverty rates by census tract; also cleaning and compiling redlining data and shapefiles from the Mapping Inequality project 
+* Tommy - researching zoning & analyzing land-use across San Francisco; also responsible for posting and updating the repo on a weekly basis, as needed
+
+### 3. Status update: Report on the general mood of the team, and provide details as to what is working, and what is not.
+Upon discussing our project, we are collectively feeling a bit overwhelmed with the amount of data available that could be interesting and applicable to our research question. Additionally, we realized that the boundaries of zip codes and census tracts do not align, which poses a concern because most COVID data available is only available by zip code – whereas other health indicators and our redlining map shapefiles are broken down by census tract. There is also a concern that some of the datasets may not line up exactly in regards to their time frame, but we are planning to address this by pulling data from as similar of sources as possible. Fortunately, what is working is the frequency of our meetings and communication. We think that our group is doing a great job with gathering research and data, sharing information, and keeping each other updated on our findings. 
+
+### 4. Data update: Provide a short narrative on where you are with the data sources you will incorporate in your project. Provide links as necessary.
+This week, each member of our group looked into a different data source that provides insight into the lasting effects of redlining on health inequities. Specifically, we analyzed CalEnviroScreen data on poverty and asthma rates, in addition to COVID-19 death rate data from X. Lastly, we also looked into San Francisco’s zoning and land use with data from the city's open data portal. In previous weeks, we pulled more general demographic data from Social Explorer that provided deeper insight on the distribution and trends around income, health insurance, and race across San Francisco. 
+
+### 5. Concerns: There should be a lot to be concerned about at this phase of the project. List those concerns and classify them as "Major concerns" and/or "Minor concerns."
+Our current major concerns are as follows:
+* The time constraints of individual team members and our collective capacity to do the indepth research, analysis, and coding needed to answer our research question. 
+* The potential alignment/misalignment of spatial boundaries between data sources (i.e. the changing of census tracts, zip codes versus census tracts, etc.). 
+* Finding COVID-19 data that is broken down by census tract, rather than by zip code.
+* Visualizing the historic redlining map data, which we must figure out how to align to 2020 census tracts. 
+Our current minor concerns are as follows:  
+* We’re nervous about bringing our data together and working collaboratively on a single jupyter notebook document because we’ve had troubles in the past with the pushing/pulling workflow in the shared repo.
+* We’re nervous about not realizing other challenges or concerns with certain datasets until it’s too close to final deadlines. 
+
+
+## 221 Group Project Proposal
 Group Name: Code & Cry
 
 Group Members: Tommy Chandler, DaYoung Lee, Quinn Haaga, Rachel Kovinsky
