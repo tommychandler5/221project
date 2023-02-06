@@ -1,7 +1,7 @@
 ## Updated Project Proposal 
 
-### Week 04
-### Project title 
+### as of 02.05.2023
+### Project Title 
 * Group Name: Code & Cry
 * Group Members: Dayoung Lee, Quinn Haaga, Tommy Chandler, Rachel Kovinsky 
 * Title: A Legacy of Racism, Redlining & Health Inequities in San Francisco  
@@ -22,10 +22,10 @@ After we each research and analyze our respective focus area, we will then merge
 ### Status Update
 Upon discussing our project, we are collectively feeling a bit overwhelmed with the amount of data available that could be interesting and applicable to our research question. Additionally, we realized that the boundaries of zip codes and census tracts do not align, which poses a concern because most COVID data available is only available by zip code – whereas other health indicators and our redlining map shapefiles are broken down by census tract. There is also a concern that some of the datasets may not line up exactly in regards to their time frame, but we are planning to address this by pulling data from as similar of sources as possible. Fortunately, what is working is the frequency of our meetings and communication. We think that our group is doing a great job with gathering research and data, sharing information, and keeping each other updated on our findings. 
 
-### 4. Data Update
+### Data Update
 This week, each member of our group looked into a different data source that provides insight into the lasting effects of redlining on health inequities. Specifically, we analyzed CalEnviroScreen data on poverty and asthma rates, in addition to COVID-19 death rate data from DataSF (the city's open data portal). Lastly, we also looked into San Francisco’s zoning and land use with data also from DataSF. In previous weeks, we pulled more general demographic data from Social Explorer that provided deeper insight on the distribution and trends around income, health insurance, and race across San Francisco. 
 
-### 5. Concerns - Major + Minor
+### Concerns
 Our current major concerns are as follows:
 * The time constraints of individual team members and our collective capacity to do the indepth research, analysis, and coding needed to answer our research question. 
 * The potential misalignment of spatial boundaries between data sources (i.e. the changing of census tracts, zip codes versus census tracts, etc.). 
