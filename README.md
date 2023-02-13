@@ -15,7 +15,7 @@ Each member of our group is responsible for analyzing a specific topic related t
 After we each research and analyze our respective focus area, we will then merge our data to overlay and visualize the different components on one map. In doing so, we will be able to better understand the overlapping and compounding effects of health disparities, and their respective relationships to redlining. 
 
 * Dayoung –  find and analyze data on asthma rates and hospitalizations, by census tract 
-* Quinn – deep dive into COVID-19 data to determine what metrics and sources are the best indicator of larger health inequities
+* Quinn – deep dive into COVID-19 and health insurance coverage data, by SF census tract, to determine what metrics and sources are the best indicator of larger health inequities
 * Rachel - find and analyze data on poverty rates by census tract; also cleaning and compiling redlining data and shapefiles from the Mapping Inequality project 
 * Tommy - research zoning & analyze land-use across San Francisco; also responsible for posting and updating the repo on a weekly basis, as needed
 
@@ -62,7 +62,8 @@ For our project, we intend to use the following data and sources:
 * Historic redlining map for San Francisco from Mapping Inequality 
 * Asthma percentiles and emergency department visits (by census tract) from CalEnviroScreening
 * This map/data also includes the location of all hospitals with emergency departments
-* COVID cases and deaths from DataSF
+* COVID case counts from DataSF
+* Health insurance coverage from DataSF
 * Land use and zoning regulations from DataSF
 * Relevant SF census data pulled from Social Explorer 
 * Any other data that we find that provides necessary context to the lasting implications of redlining on health disparities and access to care
