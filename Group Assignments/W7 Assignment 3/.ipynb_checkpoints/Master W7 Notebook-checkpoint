@@ -1,0 +1,123 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "cfcc97dc-db4b-4719-9fd2-bb49c9c9f138",
+   "metadata": {},
+   "source": [
+    "# A Legacy of Racism, Redlining & Health Inequities in San Francisco \n",
+    "\n",
+    "### Team Code & Cry\n",
+    "Tommy Chandler, Quinn Haaga, Rachel Kovinsky & DaYoung Lee "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3bb3c855-c813-4762-96f7-033745a06bc5",
+   "metadata": {},
+   "source": [
+    "### Intro & Research Question"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0cacc356-d5fa-43b5-ae6b-139c630c69ed",
+   "metadata": {},
+   "source": [
+    "Since its inception in the 1930s, redlining has impacted the quality of life for communities across the country. By labeling certain neighborhoods as “hazardous” and deeming them as less than, the HOLC's historic redlining maps enabled decades of discrimination, disinvestment, and neglect of primarily non-white and low-income communities. Today, the impacts of this practice continue to be seen and felt in cities all over, and San Francisco is no exception. \n",
+    "\n",
+    "While redlining has gained increasing prominence in U.S. housing discourse, its lasting implications go far beyond home ownership and intergenerational wealth. Accordingly, our final project examines the relationship between historic redlining practices and current health disparities within the context of San Francisco. Specifically, we examine the correlation between the areas that were deemed as “hazardous” on the HOLC maps, and the potentially negative health outcomes that are experienced in those areas today, including asthma rates and COVID-related deaths. \n",
+    "\n",
+    "Our research will be guided by the larger question: is there a relationship between historically redlined areas in San Francisco and current health disparities in the city? Further, how does redlining intersect within current issues around environmental injustice and health inequity?"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5ab95a2d-6eb7-4e15-89e9-97063c0c59c7",
+   "metadata": {},
+   "source": [
+    "### Project Links"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4afee507-165d-4fe7-9680-29631403d343",
+   "metadata": {},
+   "source": [
+    "[Link to Updated Project Proposal](https://github.com/tommychandler5/221project)\n",
+    "\n",
+    "Notebook on covid-19: [jupyter](https://jupyter.idre.ucla.edu/hub/user-redirect/lab/tree/221project/Group%20Assignments/Midterm%20Deliverables/individual%20notebooks/COVID-19%20Data.ipynb)\n",
+    "\n",
+    "Notebook on health insurance coverage: [jupyter](https://jupyter.idre.ucla.edu/hub/user-redirect/lab/tree/221project/Group%20Assignments/Midterm%20Deliverables/individual%20notebooks/Health%20Insurance%20Coverage.ipynb)\n",
+    "\n",
+    "\n",
+    "Notebook on land use and zoning: [github](https://github.com/tommychandler5/221project/blob/76f7ce3ef81afb6c77f3d675d84c3a4122da009f/Group%20Assignments/Midterm%20Deliverables/individual%20notebooks/Zoning%20and%20Land%20Use_Midterm.ipynb) | [jupyter](https://jupyter.idre.ucla.edu/hub/user-redirect/lab/tree/221project/Group%20Assignments/Midterm%20Deliverables/individual%20notebooks/Zoning%20and%20Land%20Use_Midterm.ipynb)\n",
+    "\n",
+    "\n",
+    "Notebook on asthma rates: [github](https://github.com/tommychandler5/221project/blob/main/Group%20Assignments/Midterm%20Deliverables/individual%20notebooks/Asthma%20Rates.ipynb) | [jupyter](https://jupyter.idre.ucla.edu/user/dayoung8698@g.ucla.edu/lab/workspaces/auto-7/tree/221project/Group%20Assignments/Midterm%20Deliverables/individual%20notebooks/Asthma%20Rates.ipynb)\n",
+    "\n",
+    "\n",
+    "Notebook on poverty rates: [github](https://github.com/tommychandler5/221project/blob/819473863fb6a84ae316ec7d364ecfcc5e2bb292/Group%20Assignments/Midterm%20Deliverables/individual%20notebooks/Poverty%20Rates.ipynb)| [jupyter](https://jupyter.idre.ucla.edu/user/rkovinsky@gmail.com/lab/tree/221project/Group%20Assignments/Midterm%20Deliverables/individual%20notebooks/Poverty%20Rates.ipynb)\n",
+    "\n",
+    "Notebook on historic redlining maps: [github](https://github.com/tommychandler5/221project/blob/76f7ce3ef81afb6c77f3d675d84c3a4122da009f/Group%20Assignments/Midterm%20Deliverables/individual%20notebooks/Historic%20Redlining%20Maps_Midterm.ipynb) | [jupyter](https://jupyter.idre.ucla.edu/hub/user-redirect/lab/tree/221project/Group%20Assignments/Midterm%20Deliverables/individual%20notebooks/Zoning%20and%20Land%20Use_Midterm.ipynb)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "94dc0e7f-0d76-418c-839e-ed515c4e4cb7",
+   "metadata": {},
+   "source": [
+    "### Data Sources\n",
+    "\n",
+    "Throughout our project, we used the following sources: CalEnviroScreen to pull data on asthma and poverty rates; DataSF for information on covid-19, health insurance coverage, and land use/zoning; and the Mapping Inequality Project for high-quality scans of historic redlining maps and their respective shapefiles. "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2a60be7f-d22d-4d03-87b1-0000e0a60320",
+   "metadata": {},
+   "source": [
+    "### Division of Labor\n",
+    "\n",
+    "DaYoung: visualized and interpreted data on asthma rates from CalEnviroScreen\n",
+    "\n",
+    "Quinn: found, cleaned and analyzed COVID-19 data; determined which metrics and data sources are the best indicator of larger health inequities\n",
+    "\n",
+    "Tommy: researched zoning regulations and analyzed land use across San Francisco, focusing specifically on industrial areas; also responsible for posting and updating the group repo on a weekly basis, as needed\n",
+    "\n",
+    "Rachel: found and cleaned data on asthma and poverty rates from CalEnviroScreen; conducted background research on health inequities in SF and gathered redlining data from the Mapping Inequality project; organized master notebook and midterm slide deck\n",
+    "\n",
+    "All group members met regularly to organize information, discuss findings, assign tasks, and evenly distribute the work load. "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "fa9a5a14-7f47-4360-8173-9dc3e992643f",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
