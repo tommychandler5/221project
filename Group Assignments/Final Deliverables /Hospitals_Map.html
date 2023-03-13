@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1570e547c351f7ceb5b02ae50970fd85 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1570e547c351f7ceb5b02ae50970fd85" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1570e547c351f7ceb5b02ae50970fd85 = L.map(
+                "map_1570e547c351f7ceb5b02ae50970fd85",
+                {
+                    center: [37.75438181891893, -122.41669952162162],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_305f026a3a695c303def6f60d454c8ab = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1570e547c351f7ceb5b02ae50970fd85);
+        
+    
+            var marker_b8d32786a38c5525482172b9f1cbd4a2 = L.marker(
+                [37.791424, -122.43104],
+                {}
+            ).addTo(map_1570e547c351f7ceb5b02ae50970fd85);
+        
+    
+        var popup_609a2374a9fc19d86845ce5e7221600c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9f227b343e395c42cedec7b044c9a8c = $(`<div id="html_f9f227b343e395c42cedec7b044c9a8c" style="width: 100.0%; height: 100.0%;">2333 BUCHANAN STREET San Francisco, CA</div>`)[0];
+                popup_609a2374a9fc19d86845ce5e7221600c.setContent(html_f9f227b343e395c42cedec7b044c9a8c);
+            
+        
+
+        marker_b8d32786a38c5525482172b9f1cbd4a2.bindPopup(popup_609a2374a9fc19d86845ce5e7221600c)
+        ;
+
+        
+    
+    
+            marker_b8d32786a38c5525482172b9f1cbd4a2.bindTooltip(
+                `<div>
+                     2333 BUCHANAN STREET
+San Francisco, CA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93a69fda290d89e45881b29c7d6dbd54 = L.marker(
+                [37.786144, -122.45591],
+                {}
+            ).addTo(map_1570e547c351f7ceb5b02ae50970fd85);
+        
+    
+        var popup_d3d2881111733316d9db9a381cb80aab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6808b5eee031f03c1c71527a146a8ba2 = $(`<div id="html_6808b5eee031f03c1c71527a146a8ba2" style="width: 100.0%; height: 100.0%;">3700 CALIFORNIA STREET San Francisco, CA</div>`)[0];
+                popup_d3d2881111733316d9db9a381cb80aab.setContent(html_6808b5eee031f03c1c71527a146a8ba2);
+            
+        
+
+        marker_93a69fda290d89e45881b29c7d6dbd54.bindPopup(popup_d3d2881111733316d9db9a381cb80aab)
+        ;
+
+        
+    
+    
+            marker_93a69fda290d89e45881b29c7d6dbd54.bindTooltip(
+                `<div>
+                     3700 CALIFORNIA STREET
+San Francisco, CA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5965a674e0d252eb16b34b03fe71aecb = L.marker(
+                [37.773804, -122.45441],
+                {}
+            ).addTo(map_1570e547c351f7ceb5b02ae50970fd85);
+        
+    
+        var popup_351ae5f9d55d3a902784fbe687801a15 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2a4ac15ff2d478c0577a8bf24bf227c = $(`<div id="html_c2a4ac15ff2d478c0577a8bf24bf227c" style="width: 100.0%; height: 100.0%;">450 STANYAN STREET San Francisco, CA</div>`)[0];
+                popup_351ae5f9d55d3a902784fbe687801a15.setContent(html_c2a4ac15ff2d478c0577a8bf24bf227c);
+            
+        
+
+        marker_5965a674e0d252eb16b34b03fe71aecb.bindPopup(popup_351ae5f9d55d3a902784fbe687801a15)
+        ;
+
+        
+    
+    
+            marker_5965a674e0d252eb16b34b03fe71aecb.bindTooltip(
+                `<div>
+                     450 STANYAN STREET
+San Francisco, CA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f2f1ce65f8d35e29fec88b2013e83eae = L.marker(
+                [37.763367, -122.45857],
+                {}
+            ).addTo(map_1570e547c351f7ceb5b02ae50970fd85);
+        
+    
+        var popup_7d79aa3db6510531a30a3d0ccda8f7da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33090a8088f3c24811660629e05d1e74 = $(`<div id="html_33090a8088f3c24811660629e05d1e74" style="width: 100.0%; height: 100.0%;">505 PARNASSUS AVENUE San Francisco, CA</div>`)[0];
+                popup_7d79aa3db6510531a30a3d0ccda8f7da.setContent(html_33090a8088f3c24811660629e05d1e74);
+            
+        
+
+        marker_f2f1ce65f8d35e29fec88b2013e83eae.bindPopup(popup_7d79aa3db6510531a30a3d0ccda8f7da)
+        ;
+
+        
+    
+    
+            marker_f2f1ce65f8d35e29fec88b2013e83eae.bindTooltip(
+                `<div>
+                     505 PARNASSUS AVENUE
+San Francisco, CA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f3b7c36c2f4f1cb35150ead17e3f1e85 = L.marker(
+                [37.795662, -122.40917],
+                {}
+            ).addTo(map_1570e547c351f7ceb5b02ae50970fd85);
+        
+    
+        var popup_dae053601bcf6dde68405a202fdea208 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f128ffa7f016050f8abc4c911b159acf = $(`<div id="html_f128ffa7f016050f8abc4c911b159acf" style="width: 100.0%; height: 100.0%;">845 JACKSON STREET San Francisco, CA</div>`)[0];
+                popup_dae053601bcf6dde68405a202fdea208.setContent(html_f128ffa7f016050f8abc4c911b159acf);
+            
+        
+
+        marker_f3b7c36c2f4f1cb35150ead17e3f1e85.bindPopup(popup_dae053601bcf6dde68405a202fdea208)
+        ;
+
+        
+    
+    
+            marker_f3b7c36c2f4f1cb35150ead17e3f1e85.bindTooltip(
+                `<div>
+                     845 JACKSON STREET
+San Francisco, CA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a85679b9fe176a8c4f8a8e0806e909d9 = L.marker(
+                [37.784777, -122.43973],
+                {}
+            ).addTo(map_1570e547c351f7ceb5b02ae50970fd85);
+        
+    
+        var popup_6cb7d6ab9bc3401c33bd2d4969185dd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7de371557af70bed1a705848eea9894 = $(`<div id="html_b7de371557af70bed1a705848eea9894" style="width: 100.0%; height: 100.0%;">1600 DIVISADERO STREET San Francisco, CA </div>`)[0];
+                popup_6cb7d6ab9bc3401c33bd2d4969185dd5.setContent(html_b7de371557af70bed1a705848eea9894);
+            
+        
+
+        marker_a85679b9fe176a8c4f8a8e0806e909d9.bindPopup(popup_6cb7d6ab9bc3401c33bd2d4969185dd5)
+        ;
+
+        
+    
+    
+            marker_a85679b9fe176a8c4f8a8e0806e909d9.bindTooltip(
+                `<div>
+                     1600 DIVISADERO STREET
+San Francisco, CA
+
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28bffdb5d546763d7821f394a34dd668 = L.marker(
+                [37.787402, -122.45355],
+                {}
+            ).addTo(map_1570e547c351f7ceb5b02ae50970fd85);
+        
+    
+        var popup_dc2ab359877d228490235bed75534f24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_635c53f7f30d1db28cf105a43b14885d = $(`<div id="html_635c53f7f30d1db28cf105a43b14885d" style="width: 100.0%; height: 100.0%;">3698 SACRAMENTO STREET San Francisco, CA</div>`)[0];
+                popup_dc2ab359877d228490235bed75534f24.setContent(html_635c53f7f30d1db28cf105a43b14885d);
+            
+        
+
+        marker_28bffdb5d546763d7821f394a34dd668.bindPopup(popup_dc2ab359877d228490235bed75534f24)
+        ;
+
+        
+    
+    
+            marker_28bffdb5d546763d7821f394a34dd668.bindTooltip(
+                `<div>
+                     3698 SACRAMENTO STREET
+San Francisco, CA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e16734f0c035e33d2e5d1f7bac1be4d = L.marker(
+                [37.789568, -122.41707],
+                {}
+            ).addTo(map_1570e547c351f7ceb5b02ae50970fd85);
+        
+    
+        var popup_2d29b9b8756c74bcb8aaa2e97530d4f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f57a459cb8e10dee5adb8da9eca272f7 = $(`<div id="html_f57a459cb8e10dee5adb8da9eca272f7" style="width: 100.0%; height: 100.0%;">900 HYDE STREET San Francisco, CA</div>`)[0];
+                popup_2d29b9b8756c74bcb8aaa2e97530d4f3.setContent(html_f57a459cb8e10dee5adb8da9eca272f7);
+            
+        
+
+        marker_6e16734f0c035e33d2e5d1f7bac1be4d.bindPopup(popup_2d29b9b8756c74bcb8aaa2e97530d4f3)
+        ;
+
+        
+    
+    
+            marker_6e16734f0c035e33d2e5d1f7bac1be4d.bindTooltip(
+                `<div>
+                     900 HYDE STREET
+San Francisco, CA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_14a5b6b2bce9c117acba0a89fd82b553 = L.marker(
+                [37.748043, -122.42125],
+                {}
+            ).addTo(map_1570e547c351f7ceb5b02ae50970fd85);
+        
+    
+        var popup_e9e676472eb7398a48d9af3ef573b8b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3104f0daab7eb5dce471e3ce802fa4bd = $(`<div id="html_3104f0daab7eb5dce471e3ce802fa4bd" style="width: 100.0%; height: 100.0%;">3555 CESAR CHAVEZ STREET San Francisco, CA </div>`)[0];
+                popup_e9e676472eb7398a48d9af3ef573b8b7.setContent(html_3104f0daab7eb5dce471e3ce802fa4bd);
+            
+        
+
+        marker_14a5b6b2bce9c117acba0a89fd82b553.bindPopup(popup_e9e676472eb7398a48d9af3ef573b8b7)
+        ;
+
+        
+    
+    
+            marker_14a5b6b2bce9c117acba0a89fd82b553.bindTooltip(
+                `<div>
+                     3555 CESAR CHAVEZ STREET
+San Francisco, CA
+
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b119a384ff4b85e73b35ac96d05f5f9a = L.marker(
+                [37.756064, -122.40772],
+                {}
+            ).addTo(map_1570e547c351f7ceb5b02ae50970fd85);
+        
+    
+        var popup_f0ec8d3db9da0510ec33b808eb176e09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e593a210068dc6a061d895c72874dfc = $(`<div id="html_0e593a210068dc6a061d895c72874dfc" style="width: 100.0%; height: 100.0%;">1001 POTRERO AVENUE San Francisco, CA </div>`)[0];
+                popup_f0ec8d3db9da0510ec33b808eb176e09.setContent(html_0e593a210068dc6a061d895c72874dfc);
+            
+        
+
+        marker_b119a384ff4b85e73b35ac96d05f5f9a.bindPopup(popup_f0ec8d3db9da0510ec33b808eb176e09)
+        ;
+
+        
+    
+    
+            marker_b119a384ff4b85e73b35ac96d05f5f9a.bindTooltip(
+                `<div>
+                     1001 POTRERO AVENUE
+San Francisco, CA
+
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b0799d53c874c3275460b1d5b1d8a22 = L.marker(
+                [37.782683, -122.44371],
+                {}
+            ).addTo(map_1570e547c351f7ceb5b02ae50970fd85);
+        
+    
+        var popup_75ed3d32a063a1f6ce9ff356ddcf7d27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba240a34eca36386c8bc8812da0e5f9e = $(`<div id="html_ba240a34eca36386c8bc8812da0e5f9e" style="width: 100.0%; height: 100.0%;">2425 GEARY BOULEVARD San Francisco, CA </div>`)[0];
+                popup_75ed3d32a063a1f6ce9ff356ddcf7d27.setContent(html_ba240a34eca36386c8bc8812da0e5f9e);
+            
+        
+
+        marker_8b0799d53c874c3275460b1d5b1d8a22.bindPopup(popup_75ed3d32a063a1f6ce9ff356ddcf7d27)
+        ;
+
+        
+    
+    
+            marker_8b0799d53c874c3275460b1d5b1d8a22.bindTooltip(
+                `<div>
+                     2425 GEARY BOULEVARD
+San Francisco, CA
+
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_72f4585e3fa5489d89c5db3df5436bd1 = L.marker(
+                [37.769054, -122.43582],
+                {}
+            ).addTo(map_1570e547c351f7ceb5b02ae50970fd85);
+        
+    
+        var popup_1574988bd3228ee107aadad7218d58bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de539c926d317317a5c75476ec52acf6 = $(`<div id="html_de539c926d317317a5c75476ec52acf6" style="width: 100.0%; height: 100.0%;">CASTRO AND DUBOCE STREETS San Francisco, CA </div>`)[0];
+                popup_1574988bd3228ee107aadad7218d58bb.setContent(html_de539c926d317317a5c75476ec52acf6);
+            
+        
+
+        marker_72f4585e3fa5489d89c5db3df5436bd1.bindPopup(popup_1574988bd3228ee107aadad7218d58bb)
+        ;
+
+        
+    
+    
+            marker_72f4585e3fa5489d89c5db3df5436bd1.bindTooltip(
+                `<div>
+                     CASTRO AND DUBOCE STREETS
+San Francisco, CA
+
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d1017114eb545af576c84255a137f5e2 = L.marker(
+                [37.747626, -122.45872],
+                {}
+            ).addTo(map_1570e547c351f7ceb5b02ae50970fd85);
+        
+    
+        var popup_b548e208c83a673913c56075713abc45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6164eb38b180d9bccabe955d642ec871 = $(`<div id="html_6164eb38b180d9bccabe955d642ec871" style="width: 100.0%; height: 100.0%;">375 LAGUNA HONDA BOULEVARD San Francisco, CA</div>`)[0];
+                popup_b548e208c83a673913c56075713abc45.setContent(html_6164eb38b180d9bccabe955d642ec871);
+            
+        
+
+        marker_d1017114eb545af576c84255a137f5e2.bindPopup(popup_b548e208c83a673913c56075713abc45)
+        ;
+
+        
+    
+    
+            marker_d1017114eb545af576c84255a137f5e2.bindTooltip(
+                `<div>
+                     375 LAGUNA HONDA BOULEVARD
+San Francisco, CA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
