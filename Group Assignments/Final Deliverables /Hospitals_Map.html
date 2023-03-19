@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_d97fc64170ea0812dac76af715b00bc2 {
+                #map_6249b7896d7593ccbe49090b5765eed3 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,18 +39,18 @@
 <body>
     
     
-            <div class="folium-map" id="map_d97fc64170ea0812dac76af715b00bc2" ></div>
+            <div class="folium-map" id="map_6249b7896d7593ccbe49090b5765eed3" ></div>
         
 </body>
 <script>
     
     
-            var map_d97fc64170ea0812dac76af715b00bc2 = L.map(
-                "map_d97fc64170ea0812dac76af715b00bc2",
+            var map_6249b7896d7593ccbe49090b5765eed3 = L.map(
+                "map_6249b7896d7593ccbe49090b5765eed3",
                 {
                     center: [37.75438181891893, -122.41669952162162],
                     crs: L.CRS.EPSG3857,
-                    zoom: 10,
+                    zoom: 12,
                     zoomControl: true,
                     preferCanvas: false,
                 }
@@ -60,402 +60,462 @@
 
         
     
-            var tile_layer_b7234997e5b8b9b7579df6157eabce6c = L.tileLayer(
-                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_d97fc64170ea0812dac76af715b00bc2);
+            var tile_layer_c73a86bc364269a774d783fe69eec934 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca target=\"_blank\" href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca target=\"_blank\" href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6249b7896d7593ccbe49090b5765eed3);
         
     
-            var marker_0e689c254fb6984303f7defb6c925c0b = L.marker(
+            var marker_2814fe7d8aba85f12d4d97033e7cdb29 = L.marker(
                 [37.791424, -122.43104],
                 {}
-            ).addTo(map_d97fc64170ea0812dac76af715b00bc2);
+            ).addTo(map_6249b7896d7593ccbe49090b5765eed3);
         
     
-        var popup_770c966e0a51d96330816b069b6db5ef = L.popup({"maxWidth": "100%"});
+            var icon_0869655e95a6a9d32e0f1dbb00f4c72a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_2814fe7d8aba85f12d4d97033e7cdb29.setIcon(icon_0869655e95a6a9d32e0f1dbb00f4c72a);
+        
+    
+        var popup_219aa7510f732bb76be28e3ca8b906e2 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_fc643e7f8608fd83070bd4308dded1f0 = $(`<div id="html_fc643e7f8608fd83070bd4308dded1f0" style="width: 100.0%; height: 100.0%;">2333 BUCHANAN STREET San Francisco, CA</div>`)[0];
-                popup_770c966e0a51d96330816b069b6db5ef.setContent(html_fc643e7f8608fd83070bd4308dded1f0);
+                var html_dfb6daa0de3f99eb3e4b2977761c9919 = $(`<div id="html_dfb6daa0de3f99eb3e4b2977761c9919" style="width: 100.0%; height: 100.0%;">California Pacific Med Ctr-pacific Campus</div>`)[0];
+                popup_219aa7510f732bb76be28e3ca8b906e2.setContent(html_dfb6daa0de3f99eb3e4b2977761c9919);
             
         
 
-        marker_0e689c254fb6984303f7defb6c925c0b.bindPopup(popup_770c966e0a51d96330816b069b6db5ef)
+        marker_2814fe7d8aba85f12d4d97033e7cdb29.bindPopup(popup_219aa7510f732bb76be28e3ca8b906e2)
         ;
 
         
     
     
-            marker_0e689c254fb6984303f7defb6c925c0b.bindTooltip(
+            marker_2814fe7d8aba85f12d4d97033e7cdb29.bindTooltip(
                 `<div>
-                     2333 BUCHANAN STREET
-San Francisco, CA
+                     California Pacific Med Ctr-pacific Campus
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_a17f9f065332bdaeb0c68ae763c7014d = L.marker(
+            var marker_2d9613d9a717e9c8a5c492855485cd7c = L.marker(
                 [37.786144, -122.45591],
                 {}
-            ).addTo(map_d97fc64170ea0812dac76af715b00bc2);
+            ).addTo(map_6249b7896d7593ccbe49090b5765eed3);
         
     
-        var popup_8f6c5a3d85f6ee3e1dea5bd8cabf232a = L.popup({"maxWidth": "100%"});
+            var icon_f5103ad23e862d9eb75a636807096567 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_2d9613d9a717e9c8a5c492855485cd7c.setIcon(icon_f5103ad23e862d9eb75a636807096567);
+        
+    
+        var popup_c0b78cd6815e4ed0ef857333fed0281b = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_0aff7434f121f94470a8c16ad4c04c50 = $(`<div id="html_0aff7434f121f94470a8c16ad4c04c50" style="width: 100.0%; height: 100.0%;">3700 CALIFORNIA STREET San Francisco, CA</div>`)[0];
-                popup_8f6c5a3d85f6ee3e1dea5bd8cabf232a.setContent(html_0aff7434f121f94470a8c16ad4c04c50);
+                var html_ae6b1ad380b82ce79646fe7f9cb236cc = $(`<div id="html_ae6b1ad380b82ce79646fe7f9cb236cc" style="width: 100.0%; height: 100.0%;">California Pacific Med Ctr-california West</div>`)[0];
+                popup_c0b78cd6815e4ed0ef857333fed0281b.setContent(html_ae6b1ad380b82ce79646fe7f9cb236cc);
             
         
 
-        marker_a17f9f065332bdaeb0c68ae763c7014d.bindPopup(popup_8f6c5a3d85f6ee3e1dea5bd8cabf232a)
+        marker_2d9613d9a717e9c8a5c492855485cd7c.bindPopup(popup_c0b78cd6815e4ed0ef857333fed0281b)
         ;
 
         
     
     
-            marker_a17f9f065332bdaeb0c68ae763c7014d.bindTooltip(
+            marker_2d9613d9a717e9c8a5c492855485cd7c.bindTooltip(
                 `<div>
-                     3700 CALIFORNIA STREET
-San Francisco, CA
+                     California Pacific Med Ctr-california West
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_c349419875f4c2d413060a3f26cb00da = L.marker(
+            var marker_764318f111cbbaa48cb83c58f9af7e06 = L.marker(
                 [37.773804, -122.45441],
                 {}
-            ).addTo(map_d97fc64170ea0812dac76af715b00bc2);
+            ).addTo(map_6249b7896d7593ccbe49090b5765eed3);
         
     
-        var popup_742b88a3f59568d113d38d99e47db0b0 = L.popup({"maxWidth": "100%"});
+            var icon_01cacb10043e5d4834c3cfc357966149 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_764318f111cbbaa48cb83c58f9af7e06.setIcon(icon_01cacb10043e5d4834c3cfc357966149);
+        
+    
+        var popup_655b6845e80537842b395dac5ca20de2 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_692d64a9f7685e2fa83fa1831e79f222 = $(`<div id="html_692d64a9f7685e2fa83fa1831e79f222" style="width: 100.0%; height: 100.0%;">450 STANYAN STREET San Francisco, CA</div>`)[0];
-                popup_742b88a3f59568d113d38d99e47db0b0.setContent(html_692d64a9f7685e2fa83fa1831e79f222);
+                var html_cd4bad9968f124fd00cc105f89022ec9 = $(`<div id="html_cd4bad9968f124fd00cc105f89022ec9" style="width: 100.0%; height: 100.0%;">St. Mary's Medical Center, San Francisco</div>`)[0];
+                popup_655b6845e80537842b395dac5ca20de2.setContent(html_cd4bad9968f124fd00cc105f89022ec9);
             
         
 
-        marker_c349419875f4c2d413060a3f26cb00da.bindPopup(popup_742b88a3f59568d113d38d99e47db0b0)
+        marker_764318f111cbbaa48cb83c58f9af7e06.bindPopup(popup_655b6845e80537842b395dac5ca20de2)
         ;
 
         
     
     
-            marker_c349419875f4c2d413060a3f26cb00da.bindTooltip(
+            marker_764318f111cbbaa48cb83c58f9af7e06.bindTooltip(
                 `<div>
-                     450 STANYAN STREET
-San Francisco, CA
+                     St. Mary's Medical Center, San Francisco
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_13f24de71b9e4fa376c5041b0ffaa447 = L.marker(
+            var marker_7911302c82bc266072740988c07db0de = L.marker(
                 [37.763367, -122.45857],
                 {}
-            ).addTo(map_d97fc64170ea0812dac76af715b00bc2);
+            ).addTo(map_6249b7896d7593ccbe49090b5765eed3);
         
     
-        var popup_f7d39995059055237a67636ba865596f = L.popup({"maxWidth": "100%"});
+            var icon_e77a9c1a66a8cdd77aebd130722bf220 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_7911302c82bc266072740988c07db0de.setIcon(icon_e77a9c1a66a8cdd77aebd130722bf220);
+        
+    
+        var popup_8cf2f5df5a1e2d6eb09b113e7f621aa1 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_a55b650e2606e65eb739d657d1524a47 = $(`<div id="html_a55b650e2606e65eb739d657d1524a47" style="width: 100.0%; height: 100.0%;">505 PARNASSUS AVENUE San Francisco, CA</div>`)[0];
-                popup_f7d39995059055237a67636ba865596f.setContent(html_a55b650e2606e65eb739d657d1524a47);
+                var html_1176acea567e173c00c158e7ceee5b23 = $(`<div id="html_1176acea567e173c00c158e7ceee5b23" style="width: 100.0%; height: 100.0%;">Ucsf Medical Center</div>`)[0];
+                popup_8cf2f5df5a1e2d6eb09b113e7f621aa1.setContent(html_1176acea567e173c00c158e7ceee5b23);
             
         
 
-        marker_13f24de71b9e4fa376c5041b0ffaa447.bindPopup(popup_f7d39995059055237a67636ba865596f)
+        marker_7911302c82bc266072740988c07db0de.bindPopup(popup_8cf2f5df5a1e2d6eb09b113e7f621aa1)
         ;
 
         
     
     
-            marker_13f24de71b9e4fa376c5041b0ffaa447.bindTooltip(
+            marker_7911302c82bc266072740988c07db0de.bindTooltip(
                 `<div>
-                     505 PARNASSUS AVENUE
-San Francisco, CA
+                     Ucsf Medical Center
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_ccfcd5b1039c6356ba08c51425b9e680 = L.marker(
+            var marker_1b0a5d82d5d37e9357a7160a6164b10f = L.marker(
                 [37.795662, -122.40917],
                 {}
-            ).addTo(map_d97fc64170ea0812dac76af715b00bc2);
+            ).addTo(map_6249b7896d7593ccbe49090b5765eed3);
         
     
-        var popup_03e1c2ef8e0e0cc55ac767862ac52b85 = L.popup({"maxWidth": "100%"});
+            var icon_ccbe654307c86989db507feb503bd063 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_1b0a5d82d5d37e9357a7160a6164b10f.setIcon(icon_ccbe654307c86989db507feb503bd063);
+        
+    
+        var popup_c18104233beeae745eb3e903fc159303 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_9cc1cfc3327c07ce0a71985485fd5bda = $(`<div id="html_9cc1cfc3327c07ce0a71985485fd5bda" style="width: 100.0%; height: 100.0%;">845 JACKSON STREET San Francisco, CA</div>`)[0];
-                popup_03e1c2ef8e0e0cc55ac767862ac52b85.setContent(html_9cc1cfc3327c07ce0a71985485fd5bda);
+                var html_85465ada686d097aa61d08a308c34bdf = $(`<div id="html_85465ada686d097aa61d08a308c34bdf" style="width: 100.0%; height: 100.0%;">Chinese Hospital</div>`)[0];
+                popup_c18104233beeae745eb3e903fc159303.setContent(html_85465ada686d097aa61d08a308c34bdf);
             
         
 
-        marker_ccfcd5b1039c6356ba08c51425b9e680.bindPopup(popup_03e1c2ef8e0e0cc55ac767862ac52b85)
+        marker_1b0a5d82d5d37e9357a7160a6164b10f.bindPopup(popup_c18104233beeae745eb3e903fc159303)
         ;
 
         
     
     
-            marker_ccfcd5b1039c6356ba08c51425b9e680.bindTooltip(
+            marker_1b0a5d82d5d37e9357a7160a6164b10f.bindTooltip(
                 `<div>
-                     845 JACKSON STREET
-San Francisco, CA
+                     Chinese Hospital
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_d7b26f78ac799dea7513a63cc9188eb2 = L.marker(
+            var marker_19c9568e95c37b1d2234ec505ffeb9af = L.marker(
                 [37.784777, -122.43973],
                 {}
-            ).addTo(map_d97fc64170ea0812dac76af715b00bc2);
+            ).addTo(map_6249b7896d7593ccbe49090b5765eed3);
         
     
-        var popup_339ef553c70b83023e4a31925ce84864 = L.popup({"maxWidth": "100%"});
+            var icon_08b70d2c76462b0f4c8cf37b9f63433e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_19c9568e95c37b1d2234ec505ffeb9af.setIcon(icon_08b70d2c76462b0f4c8cf37b9f63433e);
+        
+    
+        var popup_3f3be236b1e933e892e3c0fc0466d5fb = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_bcfa34be75a6ae286444a13fd800f4e4 = $(`<div id="html_bcfa34be75a6ae286444a13fd800f4e4" style="width: 100.0%; height: 100.0%;">1600 DIVISADERO STREET San Francisco, CA </div>`)[0];
-                popup_339ef553c70b83023e4a31925ce84864.setContent(html_bcfa34be75a6ae286444a13fd800f4e4);
+                var html_a67cfaaadd6ea828a3e8b33d07186aec = $(`<div id="html_a67cfaaadd6ea828a3e8b33d07186aec" style="width: 100.0%; height: 100.0%;">Ucsf Medical Center At Mount Zion</div>`)[0];
+                popup_3f3be236b1e933e892e3c0fc0466d5fb.setContent(html_a67cfaaadd6ea828a3e8b33d07186aec);
             
         
 
-        marker_d7b26f78ac799dea7513a63cc9188eb2.bindPopup(popup_339ef553c70b83023e4a31925ce84864)
+        marker_19c9568e95c37b1d2234ec505ffeb9af.bindPopup(popup_3f3be236b1e933e892e3c0fc0466d5fb)
         ;
 
         
     
     
-            marker_d7b26f78ac799dea7513a63cc9188eb2.bindTooltip(
+            marker_19c9568e95c37b1d2234ec505ffeb9af.bindTooltip(
                 `<div>
-                     1600 DIVISADERO STREET
-San Francisco, CA
-
+                     Ucsf Medical Center At Mount Zion
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_bdefc3793420af332e1686915fcd61ac = L.marker(
+            var marker_c44a8668da5045b804ed1f4f56c9891d = L.marker(
                 [37.787402, -122.45355],
                 {}
-            ).addTo(map_d97fc64170ea0812dac76af715b00bc2);
+            ).addTo(map_6249b7896d7593ccbe49090b5765eed3);
         
     
-        var popup_47b90215127c57045c97e2946e84c161 = L.popup({"maxWidth": "100%"});
+            var icon_fe0b57c826e849f2bccddbb80c4fad21 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_c44a8668da5045b804ed1f4f56c9891d.setIcon(icon_fe0b57c826e849f2bccddbb80c4fad21);
+        
+    
+        var popup_b465f16ce5bf9b9ff5e252f94e894557 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_61ec10ff111b9f8183cfb5c78b8009e3 = $(`<div id="html_61ec10ff111b9f8183cfb5c78b8009e3" style="width: 100.0%; height: 100.0%;">3698 SACRAMENTO STREET San Francisco, CA</div>`)[0];
-                popup_47b90215127c57045c97e2946e84c161.setContent(html_61ec10ff111b9f8183cfb5c78b8009e3);
+                var html_08d0f752dc7c3b47c0a333b5592fd28a = $(`<div id="html_08d0f752dc7c3b47c0a333b5592fd28a" style="width: 100.0%; height: 100.0%;">California Pacific Med Ctr-california East</div>`)[0];
+                popup_b465f16ce5bf9b9ff5e252f94e894557.setContent(html_08d0f752dc7c3b47c0a333b5592fd28a);
             
         
 
-        marker_bdefc3793420af332e1686915fcd61ac.bindPopup(popup_47b90215127c57045c97e2946e84c161)
+        marker_c44a8668da5045b804ed1f4f56c9891d.bindPopup(popup_b465f16ce5bf9b9ff5e252f94e894557)
         ;
 
         
     
     
-            marker_bdefc3793420af332e1686915fcd61ac.bindTooltip(
+            marker_c44a8668da5045b804ed1f4f56c9891d.bindTooltip(
                 `<div>
-                     3698 SACRAMENTO STREET
-San Francisco, CA
+                     California Pacific Med Ctr-california East
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_90d562b9411ba0fe0a645204ad3475e7 = L.marker(
+            var marker_f1495c837a1c2b038dafa9707640a72b = L.marker(
                 [37.789568, -122.41707],
                 {}
-            ).addTo(map_d97fc64170ea0812dac76af715b00bc2);
+            ).addTo(map_6249b7896d7593ccbe49090b5765eed3);
         
     
-        var popup_948dc2b4fe319b1e9185af8cd42f2100 = L.popup({"maxWidth": "100%"});
+            var icon_ad0d0f10e1d889a7ab9ec8e8970108f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_f1495c837a1c2b038dafa9707640a72b.setIcon(icon_ad0d0f10e1d889a7ab9ec8e8970108f1);
+        
+    
+        var popup_efffb8156f9efd54270c33cc2869e107 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_d794616a17a1c255cd84a055cb54287b = $(`<div id="html_d794616a17a1c255cd84a055cb54287b" style="width: 100.0%; height: 100.0%;">900 HYDE STREET San Francisco, CA</div>`)[0];
-                popup_948dc2b4fe319b1e9185af8cd42f2100.setContent(html_d794616a17a1c255cd84a055cb54287b);
+                var html_c48120b27f0973ff3a158f29a870a60c = $(`<div id="html_c48120b27f0973ff3a158f29a870a60c" style="width: 100.0%; height: 100.0%;">St. Francis Memorial Hospital</div>`)[0];
+                popup_efffb8156f9efd54270c33cc2869e107.setContent(html_c48120b27f0973ff3a158f29a870a60c);
             
         
 
-        marker_90d562b9411ba0fe0a645204ad3475e7.bindPopup(popup_948dc2b4fe319b1e9185af8cd42f2100)
+        marker_f1495c837a1c2b038dafa9707640a72b.bindPopup(popup_efffb8156f9efd54270c33cc2869e107)
         ;
 
         
     
     
-            marker_90d562b9411ba0fe0a645204ad3475e7.bindTooltip(
+            marker_f1495c837a1c2b038dafa9707640a72b.bindTooltip(
                 `<div>
-                     900 HYDE STREET
-San Francisco, CA
+                     St. Francis Memorial Hospital
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_937175b4795a419958fbcd7aa1e8fcf1 = L.marker(
+            var marker_cd6acaffe8caeeb3789532e5b76e80fa = L.marker(
                 [37.748043, -122.42125],
                 {}
-            ).addTo(map_d97fc64170ea0812dac76af715b00bc2);
+            ).addTo(map_6249b7896d7593ccbe49090b5765eed3);
         
     
-        var popup_48c15552ae91b9845ac320e50ab1ae29 = L.popup({"maxWidth": "100%"});
+            var icon_aabe13478f87dbcf0a0ff8f4249e95e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_cd6acaffe8caeeb3789532e5b76e80fa.setIcon(icon_aabe13478f87dbcf0a0ff8f4249e95e5);
+        
+    
+        var popup_85ddcb93cf2cd9ab0c3a242dae793442 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_c645649b796fa84c06baeefa178e78d7 = $(`<div id="html_c645649b796fa84c06baeefa178e78d7" style="width: 100.0%; height: 100.0%;">3555 CESAR CHAVEZ STREET San Francisco, CA </div>`)[0];
-                popup_48c15552ae91b9845ac320e50ab1ae29.setContent(html_c645649b796fa84c06baeefa178e78d7);
+                var html_63192917a7ff49b3578772ecbb9d0bd5 = $(`<div id="html_63192917a7ff49b3578772ecbb9d0bd5" style="width: 100.0%; height: 100.0%;">California Pacific Medical Center - St. Luke's Campus</div>`)[0];
+                popup_85ddcb93cf2cd9ab0c3a242dae793442.setContent(html_63192917a7ff49b3578772ecbb9d0bd5);
             
         
 
-        marker_937175b4795a419958fbcd7aa1e8fcf1.bindPopup(popup_48c15552ae91b9845ac320e50ab1ae29)
+        marker_cd6acaffe8caeeb3789532e5b76e80fa.bindPopup(popup_85ddcb93cf2cd9ab0c3a242dae793442)
         ;
 
         
     
     
-            marker_937175b4795a419958fbcd7aa1e8fcf1.bindTooltip(
+            marker_cd6acaffe8caeeb3789532e5b76e80fa.bindTooltip(
                 `<div>
-                     3555 CESAR CHAVEZ STREET
-San Francisco, CA
-
+                     California Pacific Medical Center - St. Luke's Campus
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_80d4671215c462d8a9fe44d468c9603f = L.marker(
+            var marker_31f30aa7fadda1df972ed1cd09bd0f23 = L.marker(
                 [37.756064, -122.40772],
                 {}
-            ).addTo(map_d97fc64170ea0812dac76af715b00bc2);
+            ).addTo(map_6249b7896d7593ccbe49090b5765eed3);
         
     
-        var popup_1031c27353d26185a432b77bbc664596 = L.popup({"maxWidth": "100%"});
+            var icon_11411f16a7513f183fcaee8ec4697982 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_31f30aa7fadda1df972ed1cd09bd0f23.setIcon(icon_11411f16a7513f183fcaee8ec4697982);
+        
+    
+        var popup_620973bc49ddf8adb1f0567479057cdf = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_e8a556bceebce7b98a82742422f9f57f = $(`<div id="html_e8a556bceebce7b98a82742422f9f57f" style="width: 100.0%; height: 100.0%;">1001 POTRERO AVENUE San Francisco, CA </div>`)[0];
-                popup_1031c27353d26185a432b77bbc664596.setContent(html_e8a556bceebce7b98a82742422f9f57f);
+                var html_4b6e8a68ac5fa43f1193ca84195d81ac = $(`<div id="html_4b6e8a68ac5fa43f1193ca84195d81ac" style="width: 100.0%; height: 100.0%;">San Francisco General Hospital</div>`)[0];
+                popup_620973bc49ddf8adb1f0567479057cdf.setContent(html_4b6e8a68ac5fa43f1193ca84195d81ac);
             
         
 
-        marker_80d4671215c462d8a9fe44d468c9603f.bindPopup(popup_1031c27353d26185a432b77bbc664596)
+        marker_31f30aa7fadda1df972ed1cd09bd0f23.bindPopup(popup_620973bc49ddf8adb1f0567479057cdf)
         ;
 
         
     
     
-            marker_80d4671215c462d8a9fe44d468c9603f.bindTooltip(
+            marker_31f30aa7fadda1df972ed1cd09bd0f23.bindTooltip(
                 `<div>
-                     1001 POTRERO AVENUE
-San Francisco, CA
-
+                     San Francisco General Hospital
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_07c85d0b49e29aed65e4a328bb9eea6b = L.marker(
+            var marker_cbc6fee09d0c99be5e64beb9e5400b04 = L.marker(
                 [37.782683, -122.44371],
                 {}
-            ).addTo(map_d97fc64170ea0812dac76af715b00bc2);
+            ).addTo(map_6249b7896d7593ccbe49090b5765eed3);
         
     
-        var popup_e74afbe58bb4ff2c27963c21ded8814f = L.popup({"maxWidth": "100%"});
+            var icon_ef6008f6ba8f134be5112b1d33162f3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_cbc6fee09d0c99be5e64beb9e5400b04.setIcon(icon_ef6008f6ba8f134be5112b1d33162f3c);
+        
+    
+        var popup_7d3f30f59c19257decd875a58fcd4eb3 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_de73c3f12f38aeaa1b9cc823f0d26f60 = $(`<div id="html_de73c3f12f38aeaa1b9cc823f0d26f60" style="width: 100.0%; height: 100.0%;">2425 GEARY BOULEVARD San Francisco, CA </div>`)[0];
-                popup_e74afbe58bb4ff2c27963c21ded8814f.setContent(html_de73c3f12f38aeaa1b9cc823f0d26f60);
+                var html_1f69cbe7c1484baf3a16a5a1e9d65959 = $(`<div id="html_1f69cbe7c1484baf3a16a5a1e9d65959" style="width: 100.0%; height: 100.0%;">Kaiser Fnd Hosp - San Francisco</div>`)[0];
+                popup_7d3f30f59c19257decd875a58fcd4eb3.setContent(html_1f69cbe7c1484baf3a16a5a1e9d65959);
             
         
 
-        marker_07c85d0b49e29aed65e4a328bb9eea6b.bindPopup(popup_e74afbe58bb4ff2c27963c21ded8814f)
+        marker_cbc6fee09d0c99be5e64beb9e5400b04.bindPopup(popup_7d3f30f59c19257decd875a58fcd4eb3)
         ;
 
         
     
     
-            marker_07c85d0b49e29aed65e4a328bb9eea6b.bindTooltip(
+            marker_cbc6fee09d0c99be5e64beb9e5400b04.bindTooltip(
                 `<div>
-                     2425 GEARY BOULEVARD
-San Francisco, CA
-
+                     Kaiser Fnd Hosp - San Francisco
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_b756394a8ffbd6250f672674bf811d26 = L.marker(
+            var marker_a7d3ebc2b2bc1d6a57d9203f915c41dd = L.marker(
                 [37.769054, -122.43582],
                 {}
-            ).addTo(map_d97fc64170ea0812dac76af715b00bc2);
+            ).addTo(map_6249b7896d7593ccbe49090b5765eed3);
         
     
-        var popup_8f5dcd7ce0ca61d1f7fb01d073284d06 = L.popup({"maxWidth": "100%"});
+            var icon_315f6ffc104b7d96cb021fe988932405 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_a7d3ebc2b2bc1d6a57d9203f915c41dd.setIcon(icon_315f6ffc104b7d96cb021fe988932405);
+        
+    
+        var popup_18cfd92d1138d67552e0591cce4845b7 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_48a99061c6f21aba930a062d947b461a = $(`<div id="html_48a99061c6f21aba930a062d947b461a" style="width: 100.0%; height: 100.0%;">CASTRO AND DUBOCE STREETS San Francisco, CA </div>`)[0];
-                popup_8f5dcd7ce0ca61d1f7fb01d073284d06.setContent(html_48a99061c6f21aba930a062d947b461a);
+                var html_48988ab3ff108b5a84b6f5f967bc612b = $(`<div id="html_48988ab3ff108b5a84b6f5f967bc612b" style="width: 100.0%; height: 100.0%;">California Pacific Med Ctr-davies Campus</div>`)[0];
+                popup_18cfd92d1138d67552e0591cce4845b7.setContent(html_48988ab3ff108b5a84b6f5f967bc612b);
             
         
 
-        marker_b756394a8ffbd6250f672674bf811d26.bindPopup(popup_8f5dcd7ce0ca61d1f7fb01d073284d06)
+        marker_a7d3ebc2b2bc1d6a57d9203f915c41dd.bindPopup(popup_18cfd92d1138d67552e0591cce4845b7)
         ;
 
         
     
     
-            marker_b756394a8ffbd6250f672674bf811d26.bindTooltip(
+            marker_a7d3ebc2b2bc1d6a57d9203f915c41dd.bindTooltip(
                 `<div>
-                     CASTRO AND DUBOCE STREETS
-San Francisco, CA
-
+                     California Pacific Med Ctr-davies Campus
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var marker_75398e894ffada00a2fcacee5cbf24fd = L.marker(
+            var marker_d2d50ba59abc08fd7a25df188afbcc95 = L.marker(
                 [37.747626, -122.45872],
                 {}
-            ).addTo(map_d97fc64170ea0812dac76af715b00bc2);
+            ).addTo(map_6249b7896d7593ccbe49090b5765eed3);
         
     
-        var popup_e16052e5bb74eae3410af0e70eb2a394 = L.popup({"maxWidth": "100%"});
+            var icon_2e634676e5a8f65b1d0674a5382e26ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_d2d50ba59abc08fd7a25df188afbcc95.setIcon(icon_2e634676e5a8f65b1d0674a5382e26ea);
+        
+    
+        var popup_bc0f6e5b6d29fad07fb62987dcb9473d = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_378fc66737ea0ad2e97725d4b6b024f4 = $(`<div id="html_378fc66737ea0ad2e97725d4b6b024f4" style="width: 100.0%; height: 100.0%;">375 LAGUNA HONDA BOULEVARD San Francisco, CA</div>`)[0];
-                popup_e16052e5bb74eae3410af0e70eb2a394.setContent(html_378fc66737ea0ad2e97725d4b6b024f4);
+                var html_3540cde2d97cbe18f0f86a12e1eb9437 = $(`<div id="html_3540cde2d97cbe18f0f86a12e1eb9437" style="width: 100.0%; height: 100.0%;">Laguna Honda Hospital And Rehabilitation Center</div>`)[0];
+                popup_bc0f6e5b6d29fad07fb62987dcb9473d.setContent(html_3540cde2d97cbe18f0f86a12e1eb9437);
             
         
 
-        marker_75398e894ffada00a2fcacee5cbf24fd.bindPopup(popup_e16052e5bb74eae3410af0e70eb2a394)
+        marker_d2d50ba59abc08fd7a25df188afbcc95.bindPopup(popup_bc0f6e5b6d29fad07fb62987dcb9473d)
         ;
 
         
     
     
-            marker_75398e894ffada00a2fcacee5cbf24fd.bindTooltip(
+            marker_d2d50ba59abc08fd7a25df188afbcc95.bindTooltip(
                 `<div>
-                     375 LAGUNA HONDA BOULEVARD
-San Francisco, CA
+                     Laguna Honda Hospital And Rehabilitation Center
                  </div>`,
                 {"sticky": true}
             );
